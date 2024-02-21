@@ -341,3 +341,61 @@ while age > 18:
 
 
 
+
+# Transfer Statement:-
+
+# Break (A break Statement, when used inside the loop, Terminate the loop & exits.)
+# Continue (continue keyword is used to end of the current loop, and continues to the next.)
+# Pass (The pass Keyword represents a null operations in Python.), (it is generally used for the purpose of Filling empty blocks of code.)
+
+
+
+
+# Break
+
+cart = [10,20,30,40,500,60,70]
+for item in cart:
+    if item>400:
+        print("Sorry you can not process this order")
+        break
+    print("processing item",item)
+
+
+# Continue
+
+cart = [10,20,30,40,500,60,70]
+for item in cart:
+    if item>400:
+        print("Sorry you can not process this order")
+        continue
+    print("processing item",item)
+
+
+
+'''for i in range(10):
+    if i%2==0:
+        continue
+    print(i)'''
+
+
+
+'''numbers = [10,20,0,5,70,0,2]
+for n in numbers:
+    if n==0:
+        print("can't divide with 0")
+        continue
+    print('100/{} = {}'.format(n,100/n))'''
+
+
+
+# Pass
+
+cart = [10,20,30,40,500,60,70]
+for item in cart:
+    if item>400:
+        print("Sorry you can not process this order")
+        pass
+    print("processing item",item)
+
+
+
