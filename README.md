@@ -82,3 +82,262 @@ else:
 
   
 
+
+# .
+
+x = 3
+if x == 4:
+	print("Yes")
+else:
+	print("No")
+
+
+
+
+
+
+
+# if..else chain statement
+
+
+letter = "A"
+
+if letter == "B":
+	print("letter is B")
+
+else:
+
+	if letter == "C":
+		print("letter is C")
+
+	else:
+
+		if letter == "A":
+			print("letter is A")
+
+		else:
+			print("letter isn't A, B and C")
+
+
+
+
+
+
+# Nested if statement example
+
+
+num = 10
+
+if num > 5:
+	print("Bigger than 5")
+
+	if num <= 15:
+		print("Between 5 and 15")
+
+
+
+
+
+
+# if-elif statement example
+letter = "A"
+
+if letter == "B":
+	print("letter is B")
+
+elif letter == "C":
+	print("letter is C")
+
+elif letter == "A":
+	print("letter is A")
+
+else:
+	print("letter isn't A, B or C")
+
+
+
+
+
+
+
+
+ # FOR LOOP:
+         . A "For loop" is used to repeat a specific block of code a Known no. of Times.
+
+
+
+
+# Print each fruit in a fruit list:
+
+
+
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  print(x)
+
+
+
+
+# Loop through the letters in the word "banana":
+
+for x in "banana":
+  print(x)
+
+
+
+# Exit the loop when x is "banana":
+
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  print(x)
+  if x == "banana":
+    break
+
+
+
+
+ # Exit the loop when x is "banana", but this time the break comes before the print:
+
+
+
+
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  if x == "banana":
+    break
+  print(x)
+
+
+
+# .
+
+
+languages = ['Swift', 'Python', 'Go']
+
+# access elements of the list one by one
+for i in languages:
+    print(i)
+
+
+
+# iterate from i = 0 to i = 3
+
+for i in range(4):
+    print(i)
+
+
+
+
+
+# While loop ---
+          • while loop will run a Piece of code while a condition is True.
+          • it is based on a boolean condition.
+
+
+
+
+# Count 1 to 100:
+
+
+x = 1
+while x<101:
+    print(x)
+    x = x+1
+
+
+
+# .
+
+while False:
+    print('Hii')
+print('Hello')
+
+
+
+# .
+
+
+while 1==2:
+    print('Hii')
+print('Hello')
+
+
+
+# if the user enters 5, the program will calculate and print the sum of the first 5 natural numbers:
+
+n = int(input("Enter the number:"))
+sum = 0
+i = 1
+while i<=n:
+  sum = sum+i
+  i = i+1
+print(sum)
+
+
+
+# the user to enter a name until the entered name is "Dhoni". Once "Dhoni" is entered, the loop exits, and "Coool" is printed:
+
+
+n = input("Enter the Name:")
+while n!= "Dhoni":
+    n = input("Enter the Name:")
+print("Coool")
+
+
+
+
+
+
+# logged in ........
+
+
+n = input("Enter The User Name:")
+p = input("Enter The Password:")
+while (n!="Rupesh kumar") or (p!= "Rupesh@1234"):
+    n = input("Enter The Name:")
+    p = input("Enter The Password:")
+print("Logged in Successfully")
+
+
+
+
+#  using nested loops to iterate over all combinations of i and j values from 0 to 3:
+
+
+for i in range(4):
+    for j in range(4):
+        print('i={} and j={}'.format(i,j))
+
+
+
+
+# Calculate the sum of numbers until user enters 0
+
+
+number = int(input('Enter a number: '))
+
+total = 0
+
+# iterate until the user enters 0
+while number != 0:
+    total += number
+    number = int(input('Enter a number: '))
+
+print('The sum is', total)
+
+
+
+
+
+# infinite while loop:
+
+
+age = 32
+
+# the test condition is always True
+while age > 18:
+    print('You can vote')
+
+
+
+
