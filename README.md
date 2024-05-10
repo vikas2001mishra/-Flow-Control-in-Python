@@ -166,6 +166,18 @@ else:
 
 
 
+# Reverse Counting:-
+
+for rc in range(100,0,-1):
+   print(rc)
+
+
+# OR
+
+n = int(input("Enter the number:"))
+for rc in range(n,0,-1):
+   print(rc)
+
 
 # Print each fruit in a fruit list:
 
@@ -344,14 +356,14 @@ while age > 18:
 
 # Transfer Statement:-
 
-# Break (A break Statement, when used inside the loop, Terminate the loop & exits.)
-# Continue (continue keyword is used to end of the current loop, and continues to the next.)
-# Pass (The pass Keyword represents a null operations in Python.), (it is generally used for the purpose of Filling empty blocks of code.)
+# Break - (A break Statement, when used inside the loop, Terminate the loop & exits.)
+# Continue - (continue keyword is used to end of the current loop, and continues to the next.)
+# Pass - (The pass Keyword represents a null operations in Python.), (it is generally used for the purpose of Filling empty blocks of code.)
 
 
 
 
-# Break
+# Break - 
 
 cart = [10,20,30,40,500,60,70]
 for item in cart:
@@ -361,7 +373,7 @@ for item in cart:
     print("processing item",item)
 
 
-# Continue
+# Continuec - 
 
 cart = [10,20,30,40,500,60,70]
 for item in cart:
@@ -388,7 +400,7 @@ for n in numbers:
 
 
 
-# Pass
+# Pass - 
 
 cart = [10,20,30,40,500,60,70]
 for item in cart:
